@@ -30,7 +30,7 @@ const App = () => {
 
       fetchWeatherData();
     }
-  }, [city]);
+  }, [city, API_KEY]);
 
   const handleSearch = (searchCity) => {
     setCity(searchCity);
